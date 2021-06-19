@@ -45,7 +45,7 @@ const useCalendar = (days = DAYS, months = MONTHS) => {
     selectedDate.getMonth(),
     0
   );
-  const daysInMoth = selectedMonthLastDate.getDate();
+  const daysInMonth = selectedMonthLastDate.getDate();
   const firstDayInMonth = new Date(
     selectedDate.getFullYear(),
     selectedDate.getMonth(),
@@ -96,8 +96,9 @@ const useCalendar = (days = DAYS, months = MONTHS) => {
               value: currentMonthCounter
             }
           ];
+          currentMonthCounter++;
         }
-      } else if (i > 1 && currentMonthCounter < daysInMoth + 1) {
+      } else if (i > 1 && currentMonthCounter < daysInMonth + 1) {
         calendarRows[i] = [
           ...calendarRows[i],
           {

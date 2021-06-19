@@ -19,9 +19,9 @@ const Calendar: FC = () => {
 
   return (
     <>
-      <p>
+      <p className="mt-4 mb-2">
         Selected Month:{' '}
-        {`${months[selectedDate.getMonth()]} - ${selectedDate.getFullYear()}`}{' '}
+        {`${months[selectedDate.getMonth()]} - ${selectedDate.getFullYear()}`}
       </p>
 
       <table className="table">
