@@ -12,6 +12,12 @@ As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 - [React][react]
 - [Typescript][typescript]
 
+## 📷 Screenshots
+
+<kbd>
+  <img src=".github/screenshot.png" alt="calendar-app" width="400" />
+</kbd>
+
 [bulma]: https://bulma.io/
 [channel]: https://www.youtube.com/channel/UCS2UjgEPEybOx1toY7aKRJg
 [react]: https://reactjs.org/
